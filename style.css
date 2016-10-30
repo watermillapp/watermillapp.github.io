@@ -25,7 +25,6 @@ h2 {
 }
 p {
   position: relative;
-  color: white;
 }
 
 /*Panel*/
@@ -349,4 +348,30 @@ body {
   font-weight: 300;
   font-family: "Roboto", monspace;
   font-size: 45px;
+}
+.contact_text {
+  position: relative;
+  text-align: center;
+  display: inline;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: 250px;
+  line-height: 35px;
+}
+#contact_felix {
+  float: left;
+  margin-left: 25%;
+}
+#contact_christian {
+  float: right;
+  margin-right: 25%;
+}
+#adress {
+  position: relative;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: 500px;
 }
