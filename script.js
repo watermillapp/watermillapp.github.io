@@ -86,7 +86,7 @@ $(document).ready(function (){
 $(document).ready(function() {
   $("#buttons_app_transfer").click(function() {
     $("#frontscreen").fadeOut(200, "swing", function() {
-      $(this).attr("src", "screen2.png");
+      $(this).attr("src", "Screen2.png");
     }).fadeIn(100, "swing");
 
     $("#buttons_app_transfer").css("visibility", "hidden");
@@ -96,7 +96,7 @@ $(document).ready(function() {
   });
   $("#buttons_app_back").click(function() {
     $("#frontscreen").fadeOut(200, "swing", function() {
-      $(this).attr("src", "screen1.png");
+      $(this).attr("src", "Screen1.png");
     }).fadeIn(100, "swing");
     $("#buttons_app_back").css("visibility", "hidden");
     $("#buttons_app_transfer").css("visibility", "visible");
@@ -106,13 +106,13 @@ $(document).ready(function() {
   });
   $("#buttons_app_transfergo").click(function() {
     $("#frontscreen").fadeOut(200, "swing", function() {
-      $(this).attr("src", "screen3.png");
+      $(this).attr("src", "Screen3.png");
     }).fadeIn(100, "swing");
     $("#buttons_app_transfergo").css("visibility", "hidden");
   });
   $("#buttons_app_withdraw").click(function() {
     $("#frontscreen").fadeOut(200, "swing", function() {
-      $(this).attr("src", "screen4.png");
+      $(this).attr("src", "Screen4.png");
     }).fadeIn(100, "swing");
     $("#buttons_app_transfer").css("visibility", "hidden");
     $("#buttons_app_back").css("visibility", "visible");
@@ -121,13 +121,13 @@ $(document).ready(function() {
   });
   $("#buttons_app_withdrawgo").click(function() {
     $("#frontscreen").fadeOut(200, "swing", function() {
-      $(this).attr("src", "screen5.png");
+      $(this).attr("src", "Screen5.png");
     }).fadeIn(100, "swing");
     $("#buttons_app_withdrawgo").css("visibility", "hidden");
   });
   $("#buttons_app_info").click(function() {
     $("#frontscreen").fadeOut(200, "swing", function() {
-      $(this).attr("src", "screen6.png");
+      $(this).attr("src", "Screen6.png");
     }).fadeIn(100, "swing");
     $("#buttons_app_infoback").css("visibility", "visible");
     $("#buttons_app_back").css("visibility", "hidden");
@@ -139,7 +139,7 @@ $(document).ready(function() {
   });
   $("#buttons_app_infoback").click(function() {
     $("#frontscreen").fadeOut(200, "swing", function() {
-      $(this).attr("src", "screen1.png");
+      $(this).attr("src", "Screen1.png");
     }).fadeIn(100, "swing");
     $("#buttons_app_infoback").css("visibility", "hidden");
     $("#buttons_app_transfer").css("visibility", "visible");
