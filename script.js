@@ -7,7 +7,13 @@ $("ul").animate({
 $("#down_logo").animate({
   "top": "300px"
 },500);
+var rotate = 0;
 
+setInterval(function(event) {
+  console.log("hello");
+  rotate += 1;
+  $("#minibox_wheel").css("transform", "rotate("+rotate+"deg)");
+}, 8);
 
 //Video button
 $("#watch").on("mouseenter", function(event) {
