@@ -11,9 +11,9 @@ var rotate = 0;
 
 setInterval(function(event) {
   console.log("hello");
-  rotate += 1;
+  rotate += 0.3;
   $("#minibox_wheel").css("transform", "rotate("+rotate+"deg)");
-}, 8);
+}, 1);
 
 //Video button
 $("#watch").on("mouseenter", function(event) {
