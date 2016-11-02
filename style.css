@@ -349,6 +349,21 @@ body {
   font-family: "Roboto", monspace;
   font-size: 45px;
 }
+.picture {
+  position: relative;
+  width: 300px;
+  display: inline;
+  margin-top: 250px;
+}
+#felix {
+  float: left;
+  margin-left: 23%;
+}
+#christian {
+  float: right;
+  margin-right: 23%;
+
+}
 .contact_text {
   position: relative;
   text-align: center;
@@ -356,8 +371,8 @@ body {
   font-family: Roboto;
   font-weight: 300;
   font-size: 20px;
-  margin-top: 250px;
   line-height: 35px;
+  margin-top: 0;
 }
 #contact_felix {
   float: left;
@@ -373,5 +388,5 @@ body {
   font-family: Roboto;
   font-weight: 300;
   font-size: 20px;
-  margin-top: 500px;
+  margin-top: 650px;
 }
